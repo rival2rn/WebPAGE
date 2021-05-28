@@ -1,0 +1,331 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.div{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.nombrenegro{
+    color: rgb(71, 14, 14);
+    font-size: 25px;
+}
+
+.encabezadoo{
+    color: #700b0b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #1badc7; 
+background: -webkit-linear-gradient(to right, #054b85, #0d7ec0);
+background: linear-gradient(to right, hsla(189, 70%, 26%, 0.603), hsla(0, 85%, 39%, 0.603)), url(https://media.istockphoto.com/photos/architectural-blueprints-and-blueprint-rolls-and-a-drawing-on-the-picture-id828560964) ; 
+background-size: cover;
+background-attachment: fixed ;
+
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0 ;
+    position: relative;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+nav>a{
+    color:rgb(247, 247, 247);
+  
+    font-weight: 450;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 10px;
+}
+nav> a:hover{
+    
+    text-decoration: underline;
+   
+}
+.diseno{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 47%;
+}
+.encabezado{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.encabezado h1{
+    font-size: 55px;
+    color: white;
+}
+.encabezado h2{
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+.div-acerca-de{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-acerca{
+    width: 48%;
+}
+.sobre-nosotros .textos{
+    width: 48%;
+}
+.textos h3{
+    margin-bottom: 20px;
+}
+.textos h3 span{
+    background-color: #850c0c;
+    color: white;
+     border-radius:50% ;
+     display: inline-block;
+     text-align: center;
+     width: 30px;
+     height: 30px;
+     padding: 2px;
+     box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+     margin-right: 5px;
+}
+.textos{
+    padding: 0px 0px 30px 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+.textos1{
+    font-SIZE:20PX;
+    font-weight: 500;
+}
+.textoo{
+    font-size: 20px;
+}
+
+.carpetaproyecto{
+    background-color: #f2f2f2;
+}
+.carpetagal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.carpetaport{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+    height: 200px;
+}
+.carpetaport >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.selecciona{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background-color: rgb(99, 8, 8);
+    transition: transform .5s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.selecciona img{
+    width: 50px;
+    
+}
+.selecciona p{
+    color: white;
+}
+.carpetaport:hover .selecciona{
+    transform: scale(1);
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.tarjetas .tarjeta{
+    background: #4d060f;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+}
+.tarjetas .tarjeta img{
+    width: 15%;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid rgb(37, 126, 148);
+    border-radius: 50%;
+    display: block;
+}
+
+.tarjetas .tarjeta >.textos1{
+    width: 60%;
+    color: rgb(255, 255, 255);
+}
+.tarjetas .tarjeta >.textos1 p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.servicios{
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+.titulo .h2{
+    color: rgb(121, 18, 18);
+}
+.divservicios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fotoservicios{
+    width: 20%;
+    text-align: center;
+}
+.fotoservicios img{
+    width: 80%;
+    
+
+}
+.fotoservicios h3{
+    margin: 10px 0;
+}
+.fotoservicios p{
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+.container-slider{
+    width: 50.5%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+.slider{
+    width: 3600px;
+    height: 450px;
+    display: flex;
+    margin-left: -100%;
+
+}
+.slider__section{
+    width: 100%;
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider__btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(230, 223, 223);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slider__btn--rigth{
+    right: 5px;
+}
+.slider__btn--left{
+    left: 5px;
+}
+.slider__btn:hover{
+    background-color: #fff
+
+}
+
+footer{
+    background-color: #143d58;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.div-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.divfooter{
+    text-align: center;
+}
+
+.divfooter h4{
+    color: white;
+    border-bottom: 3px solid #811919;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.divfooter p{
+  color: #ccc;
+
+}
+
+.firma{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #ccc;
+}
+:hover .inicioarriba{
+    color: black;
+}
+
